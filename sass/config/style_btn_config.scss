@@ -1,0 +1,21 @@
+/*---------------------------------------------------------------------------------------------*/
+/*Inport compass*/
+@import "compass/css3";
+@import "config/style_default_config.scss"; 
+	/*var sass nav*/
+		/*font*/
+			$btn_size_font : 25px;
+			$btn_default_color : #11b7f4;
+			$btn_color_font : #ffffff;
+			$btn_color_font_norm : #39de00;
+			$btn_color_font_war : #ffb401;
+			$btn_color_font_vwar : #fe0000;
+		/*box size*/
+			$btn_padding_size_small : 5px 20px 5px 20px;/*top right bottom left*/ 
+			$btn_padding_size_medium : 5px 30px 5px 30px;/*top right bottom left*/ 
+			$btn_padding_size_large : 5px 40px 5px 40px;/*top right bottom left*/
+		/*margin*/	
+			$btn_margin : 10px 0px 0px 30px; /*top right bottom left*/ 
+
+	/*var = */
+		$btn_px_height : $btn_size_font;

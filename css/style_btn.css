@@ -1,0 +1,116 @@
+@charset "CP850";
+/* Import this file using the following HTML or equivalent:
+ * <link href="/css/style_btn.css" rel="stylesheet" type="text/css" /> */
+/*Importer ce fichier en utilisant le HTML ou équivalent suivant:
+ * <link href="/css/style_btn.css" rel="stylesheet" type="text/css" /> */
+/*The configuration is managed in "config / style btn config.sccs"
+ le configuration se gère dans "config/style btn config.sccs"*/
+/*---------------------------------------------------------------------------------------------*/
+/*Inport compass*/
+/*---------------------------------------------------------------------------------------------*/
+/*Inport compass*/
+/*color*/
+/*var sass nav*/
+/*font*/
+/*box size*/
+/*top right bottom left*/
+/*top right bottom left*/
+/*top right bottom left*/
+/*margin*/
+/*top right bottom left*/
+/*var = */
+/*Extends*/
+/* line 13, ../sass/style_btn.scss */
+.btn_content {
+  /*size btn*/
+  /*no radius*/
+  /*color font btn*/
+  /*color buttom*/
+  /*reset*/
+}
+/* line 14, ../sass/style_btn.scss */
+.btn_content .btn {
+  font-size: 25px;
+  height: 25px;
+}
+/* line 18, ../sass/style_btn.scss */
+.btn_content span, .btn_content .btn_small span, .btn_content .btn_medium span, .btn_content .btn_large span, .btn_content .btn_no_rad span, .btn_content .no_rad span, .btn_content .btn_font_norm span, .btn_content .btn_font_war span, .btn_content .btn_font_vwar span {
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  background-color: #11b7f4;
+  line-height: 25px;
+  display: inline;
+  margin: 10px 0px 0px 30px;
+  color: white;
+}
+/* line 27, ../sass/style_btn.scss */
+.btn_content .btn_small span {
+  padding: 5px 20px 5px 20px;
+}
+/* line 30, ../sass/style_btn.scss */
+.btn_content .btn_medium span {
+  padding: 5px 30px 5px 30px;
+}
+/* line 33, ../sass/style_btn.scss */
+.btn_content .btn_large span {
+  padding: 5px 40px 5px 40px;
+}
+/* line 37, ../sass/style_btn.scss */
+.btn_content .btn_no_rad span, .btn_content .no_rad span {
+  -webkit-border-radius: 0px 0px;
+  -moz-border-radius: 0px / 0px;
+  border-radius: 0px / 0px;
+}
+/* line 40, ../sass/style_btn.scss */
+.btn_content .btn_font_norm span {
+  color: #39de00;
+}
+/* line 42, ../sass/style_btn.scss */
+.btn_content .btn_font_war span {
+  color: #ffb401;
+}
+/* line 44, ../sass/style_btn.scss */
+.btn_content .btn_font_vwar span {
+  color: #fe0000;
+}
+/* line 48, ../sass/style_btn.scss */
+.btn_content .btn_color_norm span {
+  -webkit-box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #39de00), color-stop(100%, #5fdf02));
+  background-image: -webkit-linear-gradient(bottom, #39de00 0%, #5fdf02 100%);
+  background-image: -moz-linear-gradient(bottom, #39de00 0%, #5fdf02 100%);
+  background-image: -o-linear-gradient(bottom, #39de00 0%, #5fdf02 100%);
+  background-image: linear-gradient(bottom, #39de00 0%, #5fdf02 100%);
+}
+/* line 51, ../sass/style_btn.scss */
+.btn_content .btn_color_war span {
+  -webkit-box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffb401), color-stop(100%, #ffb505));
+  background-image: -webkit-linear-gradient(bottom, #ffb401 0%, #ffb505 100%);
+  background-image: -moz-linear-gradient(bottom, #ffb401 0%, #ffb505 100%);
+  background-image: -o-linear-gradient(bottom, #ffb401 0%, #ffb505 100%);
+  background-image: linear-gradient(bottom, #ffb401 0%, #ffb505 100%);
+}
+/* line 54, ../sass/style_btn.scss */
+.btn_content .btn_color_vwar span {
+  -webkit-box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 -47px 55px 24px rgba(0, 0, 0, 0.08);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #fe0000), color-stop(100%, #d30303));
+  background-image: -webkit-linear-gradient(bottom, #fe0000 0%, #d30303 100%);
+  background-image: -moz-linear-gradient(bottom, #fe0000 0%, #d30303 100%);
+  background-image: -o-linear-gradient(bottom, #fe0000 0%, #d30303 100%);
+  background-image: linear-gradient(bottom, #fe0000 0%, #d30303 100%);
+}
+/* line 59, ../sass/style_btn.scss */
+.btn_content a {
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  margin: auto;
+}

@@ -1,0 +1,60 @@
+/*
+Syntax error: File to import not found or unreadable: compass/css3.
+              Load paths:
+                C:/wamp/www/convert sass (DEPRECATED)
+                C:/wamp/www/convert sass/sass
+        on line 3 of sass/config/style_button_config.scss
+
+1: /*---------------------------------------------------------------------------------------------*\/
+2: /*Inport compass*\/
+3: @import "compass/css3";
+4: 	
+5: 
+6: 	/*var sass nav*\/
+7: 		$button_size_font : 25px;
+8: 		$button_padding_size_small : 5px 20px 5px 20px;
+
+Backtrace:
+sass/config/style_button_config.scss:3
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/import_node.rb:66:in `rescue in import'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/import_node.rb:45:in `import'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/import_node.rb:28:in `imported_file'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/import_node.rb:37:in `css_import?'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:283:in `visit_import'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `map'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:151:in `visit'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/root_node.rb:20:in `render'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/engine.rb:274:in `render'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:414:in `update_stylesheet'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `each'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:393:in `on_file_changed'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:248:in `block in watch'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:252:in `call'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+F:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/css3.\A               Load paths:\A                 C:/wamp/www/convert sass (DEPRECATED)\A                 C:/wamp/www/convert sass/sass\A         on line 3 of sass/config/style_button_config.scss\A \A 1: /*---------------------------------------------------------------------------------------------*/\A 2: /*Inport compass*/\A 3: @import \"compass/css3\";\A 4: 	\A 5: \A 6: 	/*var sass nav*/\A 7: 		$button_size_font : 25px;\A 8: 		$button_padding_size_small : 5px 20px 5px 20px;"; }

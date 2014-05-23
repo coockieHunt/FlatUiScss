@@ -1,0 +1,67 @@
+/* Import this file using the following HTML or equivalent:
+ * <link href="/css/style_btn.css" rel="stylesheet" type="text/css" /> */
+/*Importer ce fichier en utilisant le HTML ou équivalent suivant:
+ * <link href="/css/style_btn.css" rel="stylesheet" type="text/css" /> */
+/*The configuration is managed in "config / style btn config.sccs"
+ le configuration se gère dans "config/style btn config.sccs"*/
+
+
+/*---------------------------------------------------------------------------------------------*/
+/*Inport compass*/
+@import "compass/css3", "config/style_btn_config.scss"; 
+/*Extends*/
+.btn_content{
+.btn{font-size: $btn_size_font;
+	 height: $btn_px_height;}
+
+span
+	{
+		@include border-radius(4px, 4px); 
+		background-color: $color_default;
+		line-height: $btn_px_height;
+		display: inline;
+		margin: $btn_margin;
+		color: $btn_color_font;
+	}	
+/*size btn*/
+.btn_small span{@extend span ; padding:  $btn_padding_size_small};
+
+
+.btn_medium span{@extend span; padding:  $btn_padding_size_medium};
+
+
+.btn_large span{@extend span; padding:  $btn_padding_size_large};
+
+/*no radius*/
+
+.btn_no_rad span, .no_rad span {@extend span; @include border-radius(0px, 0px);}
+
+/*color font btn*/
+.btn_font_norm span{@extend span; color: $btn_color_font_norm};
+
+.btn_font_war span{@extend span; color: $btn_color_font_war};
+
+.btn_font_vwar span{@extend span ; color: $btn_color_font_vwar};
+
+
+/*color buttom*/
+.btn_color_norm span{@include box-shadow(inset 0 -47px 55px 24px rgba(0,0,0,.08));
+						 @include background-image(linear-gradient(bottom, #39de00 0%, #5fdf02 100%)) };
+
+.btn_color_war span{@include box-shadow(inset 0 -47px 55px 24px rgba(0,0,0,.08));
+						   @include background-image(linear-gradient(bottom, #ffb401 0%, #ffb505 100%)) };
+
+.btn_color_vwar span{@include box-shadow(inset 0 -47px 55px 24px rgba(0,0,0,.08));
+							@include background-image(linear-gradient(bottom, #fe0000 0%, #d30303 100%)) };
+
+/*reset*/
+
+a{
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+		margin: auto;
+	    };
+}
+
+

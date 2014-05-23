@@ -1,0 +1,45 @@
+@charset "CP850";
+/* Import this file using the following HTML or equivalent:
+ * <link href="/css/style_form.css" rel="stylesheet" type="text/css" /> */
+/*Importer ce fichier en utilisant le HTML ou équivalent suivant:
+ * <link href="/css/style_form.css" rel="stylesheet" type="text/css" /> */
+/*The configuration is managed in "config /style_form_config.sccs"
+ le configuration se gère dans "config /style_form_config.sccs*"/
+
+
+/*---------------------------------------------------------------------------------------------*/
+/*Inport compass*/
+/*color*/
+/*color*/
+/*form*/
+/* line 15, ../sass/style_form.scss */
+input, .form_bor_norm, .form_bor_war, .form_bor_vwar {
+  border: 1px solid #11b7f4;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+}
+
+/*border color*/
+/* line 23, ../sass/style_form.scss */
+.form_bor_norm {
+  border: 1px solid #39de00;
+}
+
+/* line 25, ../sass/style_form.scss */
+.form_bor_war {
+  border: 1px solid #ffb401;
+}
+
+/* line 27, ../sass/style_form.scss */
+.form_bor_vwar {
+  border: 1px solid #fe0000;
+}
+
+/*no rad*/
+/* line 31, ../sass/style_form.scss */
+.form_no_rad {
+  -webkit-border-radius: 0px 0px;
+  -moz-border-radius: 0px / 0px;
+  border-radius: 0px / 0px;
+}

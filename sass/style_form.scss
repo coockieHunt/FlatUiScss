@@ -1,0 +1,33 @@
+/* Import this file using the following HTML or equivalent:
+ * <link href="/css/style_form.css" rel="stylesheet" type="text/css" /> */
+/*Importer ce fichier en utilisant le HTML ou équivalent suivant:
+ * <link href="/css/style_form.css" rel="stylesheet" type="text/css" /> */
+/*The configuration is managed in "config /style_form_config.sccs"
+ le configuration se gère dans "config /style_form_config.sccs*"/
+
+
+/*---------------------------------------------------------------------------------------------*/
+/*Inport compass*/
+@import "compass/css3", "config/style_form_config.scss", "config/style_default_config.scss" ;
+
+/*form*/
+
+	input{
+		border: $form_px_border solid $color_default;
+		@include border-radius(4px, 4px);
+	}
+
+
+/*border color*/
+
+	.form_bor_norm {@extend input; border: $form_px_border solid $form_color_bord_norm};
+
+	.form_bor_war {@extend input; border: $form_px_border solid  $form_color_bord_war};
+
+	.form_bor_vwar {@extend input ; border: $form_px_border solid  $form_color_bord_vwar};
+
+
+/*no rad*/
+	.form_no_rad{
+				@include border-radius(0px, 0px);
+	}
