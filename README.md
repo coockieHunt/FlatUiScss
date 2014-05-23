@@ -44,7 +44,7 @@ Button french
 
 ######  ps: si vous ne mettre pas de couleur le couleur par défaut sera # 11b7f4 pour la changer aller dans "config/style_default_config.scss"
 
-###### exemple html   "<a class="btn_large btn_color_vwar" href="#"><span>Hello world</span></a>"
+###### exemple html  <b>"<a class="btn_large btn_color_vwar" href="#"><span>Hello world</span></a>"</b> 
 
 
 
