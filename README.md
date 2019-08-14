@@ -45,7 +45,7 @@ Button french
 |#ffb401     	   |.btn_font_war    |
 |#fe0000      	   |.btn_font_vware  |
 
-######  ps: si vous ne mettre pas de couleur le couleur par défaut sera # 11b7f4 pour la changer aller dans "config/style_default_config.scss"
+######  ps: si vous ne mettre pas de couleur, l& couleur par défaut cera # 11b7f4 pour la changer aller dans "config/style_default_config.scss"
 
 ###### exemple html  `<a class="btn_large btn_color_vwar" href="#"><span>Hello world</span></a>`
 
